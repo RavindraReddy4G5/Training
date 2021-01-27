@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML5 MEDIA CONCEPT</title>
+    <style>
+        body {
+            background-image: url(ala.jpg);
+            background-repeat: repeat;
+        }
+        
+        h3 {
+            color: white;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        div {
+            display: inline-block;
+            margin-left: 100px;
+            padding: 3%;
+        }
+        
+        img {
+            height: 100px;
+            width: 100px;
+        }
+        
+        .telugu {
+            margin-left: 150x;
+            border: 2px solid rgb(86, 9, 230);
+            width: 70%;
+            background-color: rgba(113, 20, 228, 0.219);
+        }
+        
+        h4 {
+            text-align: center;
+        }
+        
+        button {
+            text-align: center;
+        }
+        
+        #play {
+            color: white;
+            background-color: green;
+            width: 50px;
+        }
+        
+        #pause {
+            color: white;
+            background-color: rgb(33, 71, 88);
+            width: 50px;
+        }
+        
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: -10px;
+            margin-right: -10px;
+            padding: 1%;
+            background-color: rgba(90, 4, 252, 0.219);
+            text-align: center;
+            color: white;
+        }
+        
+        .video {
+            margin-left: 150px;
+            border: 2px solid rgb(24, 21, 202);
+            background-color: rgba(30, 16, 224, 0.219);
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML5 MULTIMEDIA CONCEPT</h1><br><br>
+    <h3>VOICE OR MUSIC ELEMENTS</h3>
+    <div class="telugu">
+        <div>
+            <audio id="buttabomma">
+                <source
+                    src="https://gaana.com/album/ala-vaikunthapurramuloo"
+                    type="audio/mpeg" />
+            </audio>
+            <img src="buttabomma.jpg" />
+            <h4>Buttabomma</h4>
+            <button id="play" onclick=".play();">Play</button>
+            <button id="pause" onclick=".pause();">Pause </button>
+        </div>
+        <div>
+            <audio id="ramulo">
+                <source
+                    src="https://gaana.com/album/ala-vaikunthapurramuloo"
+                    type="audio/mpeg" />
+            </audio>
+            <img src="ramulo.jpg" />
+            <h4>ramulo</h4>
+            <button id="play" onclick=".play();">Play</button>
+            <button id="pause" onclick=".pause();">Pause </button>
+        </div>
+        <div>
+            <audio id="ala">
+                <source
+                    src="https://gaana.com/album/ala-vaikunthapurramuloo"
+                    type="audio/mpeg" />
+            </audio>
+            <img src="ala.jpg" />
+            <h4>ala title</h4>
+            <button id="play" onclick=".play();">Play</button>
+            <button id="pause" onclick=".pause();">Pause </button>
+        </div>
+    </div><br>
+    <br>
+    <br>
+
+    <h3>Video or Gif files</h3>
+
+    <div class="video">
+        <div style="margin-left: 14%;">
+            <video height="200" width="200">
+                <source src="ala.jpg" type="video/mp4">
+            </video>
+            <h4><b>movie</b> </h4>
+        </div>
+        <div>
+            <video height="200" width="200">
+                <source src="buttabomma.jpg" type="video/mp4">
+            </video>
+            <h4>video song</h4>
+        </div>
+    </div>
+</body>
+
+</html>

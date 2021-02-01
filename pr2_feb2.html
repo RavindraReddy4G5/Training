@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .container {
+            height: 200px;
+            position: relative;
+            border: 3px solid green;
+        }
+        
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        
+        body {
+            padding-left: 11em;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: purple;
+            background-color: #d8da3d;
+        }
+        
+        ul.navbar {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 2em;
+            left: 1em;
+            width: 9em;
+        }
+        
+        h1 {
+            font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+        }
+        
+        ul.navbar li {
+            background: white;
+            margin: 0.5em 0;
+            padding: 0.3em;
+            border-right: 1em solid black;
+        }
+        
+        ul.navbar a {
+            text-decoration: none;
+        }
+        
+        a:link {
+            color: blue;
+        }
+        
+        a:visited {
+            color: purple;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <ul class="navbar">
+        <li><a href="index.html">Home page</a>
+            <li><a href="about.html">about us</a>
+                <li><a href="contact.html">contact</a>
+                    <li><a href="reg.html">register</a>
+    </ul>
+
+
+    <h1>About css styles</h1>
+
+    <p>Style page!</p>
+
+    <p>For vertical alignment, set the parent element's width / height to 100% and add display: table . Then for the child element, change the display to table-cell and add vertical-align: middle . For horizontal centering, you could either add text-align:
+        center to center the text and any other inline children elements.&hellip;</p>
+
+    <p>There should be more here, but I don't know what yet.</p>
+    <h2>Centering</h2>
+    <p>In this example, we use positioning and the transform property to vertically and horizontally center the div element:</p>
+
+    <div class="container">
+        <div class="center">
+            <p>I am vertically and horizontally centered.</p>
+        </div>
+    </div>
+
+    <address>Made 2 feb 2021<br>
+  by ravindra reddy.</address>
+
+</body>
+
+</html>

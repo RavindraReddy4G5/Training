@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<title>Login Page</title>
+
+<body>
+    <p>Welcome to Login Page!</p>
+    <div>
+        Enter UserName <input type="text" [(ngModel)]="UserName"><br> Enter Password <input type="password" [(ngModel)]="Password"><br>
+        <input type="button" value="Signin" (click)="CheckUser()"><br>
+        <div *ngIf="isvalid">Valid user</div>
+        <div *ngIf="isinvalid">inValid user</div>
+    </div>
+
+</body>
+
+</html>
